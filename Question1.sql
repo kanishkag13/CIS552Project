@@ -1,7 +1,6 @@
 /***
 "What is the optimal reorder point for each product in our inventory, considering historical sales data, lead times, and a desired service level of 95%?"
 ***/
--- Query 1:  Calculate average daily sales using ProductAvailability and Sales tables
 
 -- Indexing
 
@@ -18,7 +17,7 @@ CREATE INDEX idx_SupplierInfo_ID ON SupplierInfo(ID);
 -- ProductInfo Table
 CREATE INDEX idx_ProductInfo_ProductID ON ProductInfo(ProductID);
 
--- Query Optimization
+
 
 -- Calculate average daily sales using ProductAvailability and Sales tables
 WITH AverageDailySales AS (
