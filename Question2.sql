@@ -2,7 +2,7 @@
 What are the slow-moving or potentially obsolete items in our inventory, considering products with total sales quantities below 3000 units? 
 Additionally, provide information on the product type, total quantity sold, and the associated supplier names for these items.
 ***/
--- Query 2: Identify Slow-Moving or Obsolete Items with Supplier Information
+
 
 -- Sales is partitioned on ID
 CREATE TABLE P_Sales (
