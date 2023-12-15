@@ -2,7 +2,7 @@
 What is the sales performance and availability of products in our inventory, 
 including details such as the product type, total quantity sold, average revenue, and availability?
 ***/
--- Query 3: Analyze Historical Sales Data 
+
 
 SELECT
     pa.ProductID,
